@@ -1,0 +1,10 @@
+{
+  "provider": "ollama",
+  "model": "gemma4:12b",
+  "providers": {
+    "ollama": {
+      "base_url": "http://host.docker.internal:11434/v1",
+      "models": ["gemma4:12b", "qwen3.5:27b"]
+    }
+  }
+}
