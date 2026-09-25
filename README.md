@@ -159,6 +159,8 @@ git clone https://github.com/<your-username>/ainovel-cli.git
 cd ainovel-cli
 go build -o ainovel-cli ./cmd/ainovel-cli/
 
+go build -o ainovel-cli.exe ./cmd/ainovel-cli/
+
 # Linux/macOS
 ./ainovel-cli
 
